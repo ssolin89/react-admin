@@ -1,0 +1,15 @@
+// Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// KoPubWorldDotum
+@font-face {
+  font-family: "KoPubWorldDotum";
+  font-weight: 300;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldDotumLight.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldDotumLight.eot?#iefix") format("embedded-opentype"),
+  url("https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldDotumLight.woff2") format("woff2"),
+  url("https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldDotumLight.woff") format("woff"),
+  url("https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldDotumLight.ttf") format("truetype");
+  font-display: swap;
+}
