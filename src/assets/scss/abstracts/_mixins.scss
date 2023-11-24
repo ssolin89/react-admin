@@ -45,6 +45,33 @@ $desktop-width: 1200px;
   color: $color;
 }
 
+// Flex
+@mixin flex(
+  $display: flex,
+  $alignItems: null,
+  $justifyContent: null,
+  $flexWrap: null,
+  $flexDirection: null
+) {
+  display: $display;
+  
+  @if $alignItems {
+    align-items: $alignItems;
+  }
+  
+  @if $justifyContent {
+    justify-content: $justifyContent;
+  }
+  
+  @if $flexWrap {
+    flex-wrap: $flexWrap;
+  }
+  
+  @if $flexDirection {
+    flex-direction: $flexDirection;
+  }
+}
+
 // 글자 줄임
 @mixin font_abb {
   display: -webkit-box;
