@@ -11,3 +11,51 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  border: none;
+}
+
+header, section, nav, footer {
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:link, a:visited, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+input,
+textarea,
+button {
+  appearance: none;
+  border-radius: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+input[type='radio'] {
+  appearance: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
